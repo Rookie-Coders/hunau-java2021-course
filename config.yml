@@ -1,0 +1,16 @@
+title: Hunau-java课程实验内容（2021大三下）
+description: 记录Java实验课源文件
+template:
+  repo: hunau-java2021-template
+  name: hunau-java2021
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
